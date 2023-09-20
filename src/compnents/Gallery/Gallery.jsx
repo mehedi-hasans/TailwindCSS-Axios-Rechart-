@@ -20,6 +20,7 @@ export default function Gallery() {
     <div>
         <h2 className="text-3xl font-bold text-center my-5">Gellery</h2>
         <ImageGallery items={images} />;
+        
     </div>
   )
 }

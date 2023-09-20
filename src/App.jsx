@@ -7,6 +7,8 @@ import Phones from './compnents/Phones/Phones'
 import PriceOptions from './compnents/Price Options/PriceOptions'
 import Map from './compnents/Map/Map'
 import Gallery from './compnents/Gallery/Gallery'
+import ImageViewer from './compnents/Image Viewer/ImageViewer'
+import Footer from './compnents/Footer/Footer'
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
       <Phones/>
       <Gallery/>
       <Map/>
+      <ImageViewer/>
+      <Footer/>
     </>
   )
 }
