@@ -15,7 +15,7 @@ export default function LineChart() {
     <div className='mx-auto text-center my-11'>
         <h2 className='text-3xl font-bold mb-8'>Line Chart</h2>
 
-      <LChart className=' mx-auto py-9' width={900} height={400} data={lineChartData}>
+      <LChart className=' mx-auto py-9' width={1200} height={400} data={lineChartData}>
           <XAxis dataKey={'name'}></XAxis>
           <YAxis></YAxis>
           <Line type={'Subject'} dataKey="physics" />
