@@ -6,6 +6,7 @@ import Navbar from './compnents/Navbar/Navbar'
 import Phones from './compnents/Phones/Phones'
 import PriceOptions from './compnents/Price Options/PriceOptions'
 import Map from './compnents/Map/Map'
+import Gallery from './compnents/Gallery/Gallery'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <PriceOptions/>
       <LineChart/>
       <Phones/>
+      <Gallery/>
       <Map/>
     </>
   )
