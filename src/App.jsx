@@ -5,6 +5,7 @@ import LineChart from './compnents/LineChart/LineChart'
 import Navbar from './compnents/Navbar/Navbar'
 import Phones from './compnents/Phones/Phones'
 import PriceOptions from './compnents/Price Options/PriceOptions'
+import Map from './compnents/Map/Map'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <PriceOptions/>
       <LineChart/>
       <Phones/>
+      <Map/>
     </>
   )
 }
